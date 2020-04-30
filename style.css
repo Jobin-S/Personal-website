@@ -1,0 +1,54 @@
+.home{
+    color: #ff6b6b;
+}
+
+.server{
+    color: #feca57;
+}
+.briefcase{
+    color: #1dd1a1;
+}
+.envelope{
+    color: #ffffff;
+}
+.navbar-nav a:hover{
+    background: #fff;
+color: #2f3640;
+transform: scale(1.1);
+}
+.navbar-nav a{
+    margin-left: 10px;
+    color:#ddd;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 10px 30px;
+    border-radius: 4px;
+    transition: .3s linear;
+}
+.yt{
+    color:red;
+}
+.service-section{
+    background: #74b9ff;
+}
+.experience-section{
+    background: #dfe6e9;
+}
+.code-icon{
+    color: #2ecc71;
+}
+.ps{
+    filter: invert(54%) sepia(51%) saturate(1387%) hue-rotate(177deg) brightness(91%) contrast(88%);
+    height: 9em;
+    width: 9em;
+}
+.editing{
+    color: #f1c40f;
+}
+.coding{
+    color: #ff7979;
+}
+.last{
+    background: #000;
+    color: white;
+}
