@@ -15,7 +15,7 @@
         $mail->Host = "jobin-s.github.io"; // Your Domain Name
           
         $mail->SMTPAuth = true;
-        $mail->Port = 587;
+        $mail->Port = 8080;
         $mail->Username = "jobins9633@gmail.com"; // Your Email ID
         $mail->Password = "Myjesus2015"; // Password of your email id
           
