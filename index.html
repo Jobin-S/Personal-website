@@ -90,13 +90,16 @@
             
                 <div class="col-md-4 pt-4">                   
                     <div class="card align-items-center" style="width: 18rem; height: 20em;">
+                     
                         <i class="fas fa-code  fa-9x code-icon pt-4" aria-hidden="true"></i>
                         <div class="card-body text-center">
                           <h5 class="card-title">Web Designer</h5>
                           <p class="card-text">Designs static responsive website creativily for any theme. </p>
-                        </div>
+                          </div>
+                        
                       </div>                      
                 </div>
+                
                 <div class="col-md-4 pt-4">                   
                     <div class="card align-items-center p-3" style="width: 18rem; height: 20em;">
                       <img class="ps" src="https://img.icons8.com/carbon-copy/100/000000/adobe-photoshop.png">
@@ -211,8 +214,10 @@
             <h1 class="text-center">Contact me</h1>
             <div class="col-md-12">
 
+             
+
               <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
-  onload="if(submitted) {window.location='index.html';}"> </iframe> 
+  onload="if(submitted) {window.location='#homekey';}"> </iframe> 
 
 
                 <form role="form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScOes6JEEWLS6ALwvgzOD6z7697zDnFKcBVOnfEFX5SWZ1WBw/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true">
@@ -270,6 +275,13 @@
           $(".navbar-collapse").collapse('hide');
           
       });
+
+    $("form").submit(function(){
+      swal("Submitted", "Thanks for your valuable message", "success");
+    });
+  
   </script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  
 </body>
 </html>
